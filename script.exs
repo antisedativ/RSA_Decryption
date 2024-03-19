@@ -69,7 +69,6 @@ defmodule RSA do
   end
 end
 
-# Пример использования
 key_pair = RSA.Key.generate_keys(61, 53)
 IO.inspect key_pair
 
